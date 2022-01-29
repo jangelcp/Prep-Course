@@ -1,0 +1,65 @@
+Variables
+Las variables son una forma de guardar algun tipode dato en un lenguaje de programación.
+Existen 3 tipos de variables:
+var
+let
+const
+En ellas para declararlas y asignarles un valor se escribe la palabra clave el nombre de la variable y luego
+con signo de igual le asignamos el valor que va a recibir.
+
+var variable = "Un valor que despues puede ser alterado";
+
+let otra = "otra variable con un nivel de scope diferente";
+
+const constante "El valor no cambia";
+
+Strings
+Las strings son un tipo de dato de una cadena de texto, en ellas se declaran entre comillas simples o dobles,
+y dentro de las comillas se escribe el texto.
+
+var str = "Esto es una string";
+
+Funciones(arguments return)
+
+Las funciones son un objeto donde en ellas pueden hacerse diferentes funciones o reliza algo, se les puede pasar
+algún argumento(los argumentos son alguna palabra que sivre para pasar valores a las funciones), también esta la palabra return para
+regresar algun valor que queramos que nuestra funcion enseñe al ser realizada.
+
+function esUnaFuncion (argumento){
+    return variable;
+}//"Un valor que despues puede ser alterado"
+
+var otraForma = function (){}
+
+var yOtra = () => {}
+
+if(statement)
+
+La declaracion if es un statemnt(realiza algo), en ella se pueden comparar si alguna condición como verdadera
+nos realizara una acción en caso de que sea false nos realizara otra acción.
+
+ejemplo:
+if (true){
+    //Se ejecuta este código
+} else{
+    //Si no es true se ejecuta este código
+}
+var a = 0;
+if(1 === a){
+    return a; //Si a es igual a 1 retornara a;
+} else{
+    return a++; //Si a no es igual a 1 entonces a le sumaras en uno.
+}
+
+Valores booleanos
+
+Los booleanos son un tipo de dato en el lenguaje de JS, que son true y false, se escriben sin comillas,
+otros tipos de datos pueden ser tomados como valores true y false que a esto se le conoce como veracidad
+y estos son:
+verdaderos                              falsos
+true                                    false  
+1                                       0
+" "                                     ""
+[]                                      null
+{}                                      undefined
+function (){}
