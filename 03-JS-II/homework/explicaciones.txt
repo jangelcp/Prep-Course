@@ -1,0 +1,14 @@
+for
+Es la palabra clave que se usa para generar un bucle de tipo for, constituye de 3 cosas principales, la declaracion de una variable (desde donde se iniciara), despues declaramos el limite al que queremos que llegue(cuantas veces
+se ira ejecutando el bucle) y por ultimo se le ira suamando con la notacion postfix de ++ para incrementar en uno su valor(esto hara que la variable inicial se ira iterando hasta el limite anteriormente declararado).
+ejemplo:
+for(let i = 0       ; i < 10        ; i++) itera hasta el 10
+    inicializacion   condición      sentencia final
+
+&&, ||, !
+
+Son operadores lógicos donde en el keyword && todas los valores o parametros pasados tendran qeu ser considerados true para poder ejecutarse, en el caso de || solamente con que una de las condiciones sea true se podra
+ejecurarse la declaracion, en el caso de && si la primera es true leera la siguiente declaracion, en caso de que sea false se dentendra y no ejecutara la segunda, por el caso de || si el primero es true se detendrá y no leera
+la sigueinte, en el caso de sea false pasara a la siguente y confiramara si su valor es true o false.
+
+El operador ! se refiere a la notación not, que no sean iguales, cambiando los valores de veracidad de truthy o falsey a lo opuesto de su valor real.
