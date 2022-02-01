@@ -1,0 +1,13 @@
+Arrays 
+Los arrays son un tipo de objetos donde dentro de ellos se puede meter cualquier tipo de dato, ya sea primitivo o no, como:
+-Strings
+-Numbers
+-Boolean
+-Undefined
+-Null
+-Objetos
+-Arrays
+-funciones
+
+Los arrays contienen una larga lista de métodos dentro de ellas para poder usar, y se escriben declarando una variable seguido del signo de igual, despúes [] y dentro de ellas se escriben el tipo de dato seprado de comas cada dato,
+los arrays son datos enumerbles oes una lista que cada dato tiene su propia poscion estas posiciones son enumaradas dando el primero como 0 y el ultimo como -1.
