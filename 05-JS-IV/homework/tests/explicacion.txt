@@ -1,0 +1,47 @@
+Ojetos
+
+Los objetos son otro tipo de datos(no primitivos) que contienen dentro de ellos un clave-valor (guarda un dato con su nombre y su valor), podría decirse que al igual que los arrays son contenedores de datos, 
+pero en estos separamos por como y los clave-valor, los clave-valor que guardan funciones se les puede denominar metodos y estos metodos se les pueden pasar a otros objetos.
+
+Las propiedades
+Las propiedades contienen un tipo de dato, ya sea array, objeto, datos primitivos, funciones,etc. En ellas se pueden acceder a traves de la notación de punto o entre [] y dentro comillas con el nombre de la propiedad inclusive
+guardando el objeto especificado en sí en una variable:
+ 
+let nombre = "Angel";
+let apellido = "Castro";
+
+objeto ={
+    nombre: this.nombre,
+    apellido: .this.apellido,
+    saludo: function (){
+        return "Hola " + objeto.nombre + " " + objeto.apellido
+    }
+}
+
+objeto.nombre //"Angel"
+
+var apell = objeto["apellido"]
+
+objeto[apell] //"Castro"
+
+Métodos 
+
+Los métodos son las funciones que tienen algúna propiedad dentro de un objeto.
+Esto es un metodo:
+
+objeto.saludo() //"Hola Angel Casreo"
+
+for...in
+
+Al igual que el bucle for de los array este sirve para iterar sobre un mismo objeto, pero diferentemente escrito, en el se escribe el for, segudio de corchetes(), dentro de ellos declaramos una variable que recorrera todo el objeto
+y la palabra clave "in", segudio del objeto a recorrer:
+
+for(let date in objeto){
+    return `{date}: ${objeto[date]}`
+}
+
+nombre: "Angel"
+apellido: "Castro"
+saludo: function (){}
+
+la dife
